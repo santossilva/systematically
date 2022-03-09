@@ -1,0 +1,288 @@
+{
+  "Color": {
+    "Palette": {
+      "Brand": {
+        "Primary": {
+          "value": "#08a964",
+          "type": "color"
+        },
+        "Primary_Contrast": {
+          "value": "#fffffe",
+          "type": "color"
+        },
+        "Secondary": {
+          "value": "#023f2b",
+          "type": "color"
+        },
+        "Tertiary": {
+          "value": "#d9f2e9",
+          "type": "color"
+        },
+        "Promo": {
+          "value": "#cf213b",
+          "type": "color"
+        },
+        "Promo_Contrast": {
+          "value": "#fffffe",
+          "type": "color"
+        },
+        "CTA": {
+          "value": "#0cf947",
+          "type": "color"
+        },
+        "CTA_Contrast": {
+          "value": "#023f2b",
+          "type": "color"
+        },
+        "Gradient_colour": {
+          "value": "#128353",
+          "type": "color"
+        },
+        "Primary_gradient": {
+          "value": "linear-gradient(0deg, #08a964 0%, #128353 100%)",
+          "type": "color"
+        }
+      },
+      "Neutral": {
+        "Grey01": {
+          "value": "#1a1a1a",
+          "type": "color"
+        },
+        "Grey02": {
+          "value": "#282828",
+          "type": "color"
+        },
+        "Grey03": {
+          "value": "#333333",
+          "type": "color"
+        },
+        "Grey04": {
+          "value": "#484848",
+          "type": "color"
+        },
+        "Grey05": {
+          "value": "#666666",
+          "type": "color"
+        },
+        "Grey06": {
+          "value": "#848484",
+          "type": "color"
+        },
+        "Grey07": {
+          "value": "#909090",
+          "type": "color"
+        },
+        "Grey08": {
+          "value": "#a4a4a4",
+          "type": "color"
+        },
+        "Grey09": {
+          "value": "#cccccc",
+          "type": "color"
+        },
+        "Grey10": {
+          "value": "#eeeeee",
+          "type": "color"
+        },
+        "Grey11": {
+          "value": "#f2f2f2",
+          "type": "color"
+        },
+        "Grey12": {
+          "value": "#f7f7f7",
+          "type": "color"
+        },
+        "White": {
+          "value": "#ffffff",
+          "type": "color"
+        }
+      },
+      "Action": {
+        "Alert": {
+          "value": "#CC0000",
+          "type": "color"
+        },
+        "Alert_Contrast": {
+          "value": "{Pallet.Neutral.White}",
+          "type": "color"
+        }
+      }
+    },
+    "Colourway": {
+      "header": {
+        "Header": {
+          "value": "#023f2b",
+          "type": "color"
+        },
+        "Header_Contrast": {
+          "value": "#fffffe",
+          "type": "color"
+        }
+      },
+      "Light": {
+        "Background": {
+          "value": "{White}",
+          "type": "color"
+        },
+        "Foreground": {
+          "value": "{Grey02}",
+          "type": "color"
+        },
+        "Headings": {
+          "value": "{Grey02}",
+          "type": "color"
+        },
+        "Paragraphs": {
+          "value": "{Grey02}{80%a}",
+          "type": "color"
+        },
+        "text-alt": {
+          "value": "{Primary}",
+          "type": "color"
+        },
+        "text-links": {
+          "value": "{Secondary}",
+          "type": "color"
+        },
+        "Paragraphs-copy": {
+          "value": "{Grey02}{80%a}}",
+          "type": "color"
+        },
+        "Button": {
+          "Primary": {
+            "border": {
+              "value": "{CTA_Contrast}{0%a}",
+              "type": "color"
+            },
+            "Background": {
+              "value": "{CTA}",
+              "type": "color"
+            },
+            "Label": {
+              "value": "{CTA-contrast}",
+              "type": "color"
+            }
+          },
+          "Secondary": {
+            "border": {
+              "value": "{Grey01}",
+              "type": "color"
+            },
+            "Background": {
+              "value": "{Grey01}{0%a}",
+              "type": "color"
+            },
+            "Label": {
+              "value": "{Grey01}",
+              "type": "color"
+            }
+          },
+          "Tertiary": {
+            "border": {
+              "value": "{Grey01}{30%a}",
+              "type": "color"
+            },
+            "Background": {
+              "value": "{Grey01}{0%a}",
+              "type": "color"
+            },
+            "Label": {
+              "value": "{Grey01}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    },
+    "Neutral": {},
+    "Dark": {},
+    "Primary": {}
+  },
+  "Layout": {
+    "Grid_Units": {
+      "GU_Setting": {
+        "value": "8",
+        "type": "other"
+      },
+      "1GU": {
+        "value": "{Layout.Grid_Units.GU_Setting} * 1",
+        "type": "spacing"
+      },
+      "2GU": {
+        "value": "{Layout.Grid_Units.GU_Setting} * 2",
+        "type": "spacing"
+      },
+      "3GU": {
+        "value": "{Layout.Grid_Units.GU_Setting} * 3",
+        "type": "spacing"
+      },
+      "4GU": {
+        "value": "{Layout.Grid_Units.GU_Setting} * 4",
+        "type": "spacing"
+      },
+      "5GU": {
+        "value": "{Layout.Grid_Units.GU_Setting} * 5",
+        "type": "spacing"
+      },
+      "6GU": {
+        "value": "{Layout.Grid_Units.GU_Setting} * 6",
+        "type": "spacing"
+      },
+      "7GU": {
+        "value": "{Layout.Grid_Units.GU_Setting} * 7",
+        "type": "spacing"
+      },
+      "8GU": {
+        "value": "{Layout.Grid_Units.GU_Setting} * 8",
+        "type": "spacing"
+      },
+      "9GU": {
+        "value": "{Layout.Grid_Units.GU_Setting} * 9",
+        "type": "spacing"
+      },
+      "10GU": {
+        "value": "{Layout.Grid_Units.GU_Setting} * 10",
+        "type": "spacing"
+      },
+      "11GU": {
+        "value": "{Layout.Grid_Units.GU_Setting} * 11",
+        "type": "spacing"
+      },
+      "12GU": {
+        "value": "{Layout.Grid_Units.GU_Setting} * 12",
+        "type": "spacing"
+      },
+      "13GU": {
+        "value": "{Layout.Grid_Units.GU_Setting} * 13",
+        "type": "spacing"
+      },
+      "14GU": {
+        "value": "{Layout.Grid_Units.GU_Setting} * 14",
+        "type": "spacing"
+      },
+      "15GU": {
+        "value": "{Layout.Grid_Units.GU_Setting} * 15",
+        "type": "spacing"
+      },
+      "16GU": {
+        "value": "{Layout.Grid_Units.GU_Setting} * 16",
+        "type": "spacing"
+      },
+      "17GU": {
+        "value": "{Layout.Grid_Units.GU_Setting} * 17",
+        "type": "spacing"
+      },
+      "18GU": {
+        "value": "{Layout.Grid_Units.GU_Setting} * 18",
+        "type": "spacing"
+      },
+      "19GU": {
+        "value": "{Layout.Grid_Units.GU_Setting} * 19",
+        "type": "spacing"
+      },
+      "20GU": {
+        "value": "{Layout.Grid_Units.GU_Setting} * 20",
+        "type": "spacing"
+      }
+    }
+  } }
