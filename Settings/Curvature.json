@@ -1,0 +1,185 @@
+{
+
+
+
+
+	"Strong": {
+		"Panel": {
+		"value": "3 * {UDS.Layout.Grid_Units.GU_Setting}",
+		"type": "borderRadius"
+		},
+		
+		"Button_L": {
+		"value": "4 * {UDS.Layout.Grid_Units.GU_Setting}",
+		"type": "borderRadius"
+		},
+		"Button_M": {
+		"value": "3 * {UDS.Layout.Grid_Units.GU_Setting}",
+		"type": "borderRadius"
+		},
+		"Button_S": {
+			"value": "2 * {UDS.Layout.Grid_Units.GU_Setting}",
+			"type": "borderRadius"
+		},
+
+		
+		"Button-and-Input-L": {
+			"value": "4 * {UDS.Layout.Grid_Units.GU_Setting}",
+			"type": "borderRadius"
+		},
+		
+		"Input_M": {
+			"value": "1.5 * {UDS.Layout.Grid_Units.GU_Setting}",
+			"type": "borderRadius"
+		},
+		"Badge": {
+			"value": "1.5 * {UDS.Layout.Grid_Units.GU_Setting}",
+			"type": "borderRadius"
+		},
+
+		
+		"Button_S-on-Input_M": {
+		"value": "0.5 * {UDS.Layout.Grid_Units.GU_Setting}",
+		"type": "borderRadius"
+		}
+	},
+
+
+
+
+	"Medium": {
+		"Panel": {
+		"value": "2 * {UDS.Layout.Grid_Units.GU_Setting}",
+		"type": "borderRadius"
+		},
+		
+		"Button_L": {
+		"value": "3 * {UDS.Layout.Grid_Units.GU_Setting}",
+		"type": "borderRadius"
+		},
+		"Button_M": {
+		"value": "2 * {UDS.Layout.Grid_Units.GU_Setting}",
+		"type": "borderRadius"
+		},
+		"Button_S": {
+			"value": "1 * {UDS.Layout.Grid_Units.GU_Setting}",
+			"type": "borderRadius"
+		},
+
+		
+		"Button-and-Input-L": {
+			"value": "3 * {UDS.Layout.Grid_Units.GU_Setting}",
+			"type": "borderRadius"
+		},
+		
+		"Input_M": {
+			"value": "1 * {UDS.Layout.Grid_Units.GU_Setting}",
+			"type": "borderRadius"
+		},
+		"Badge": {
+			"value": "1 * {UDS.Layout.Grid_Units.GU_Setting}",
+			"type": "borderRadius"
+		},
+
+		
+		"Button_S-on-Input_M": {
+		"value": "2",
+		"type": "borderRadius"
+		}
+	},
+
+
+	"Weak": {
+		"Panel": {
+		"value": "2 * {UDS.Layout.Grid_Units.GU_Setting}",
+		"type": "borderRadius"
+		},
+		
+		"Button_L": {
+		"value": "3 * {UDS.Layout.Grid_Units.GU_Setting}",
+		"type": "borderRadius"
+		},
+		"Button_M": {
+		"value": "2 * {UDS.Layout.Grid_Units.GU_Setting}",
+		"type": "borderRadius"
+		},
+		"Button_S": {
+			"value": "1 * {UDS.Layout.Grid_Units.GU_Setting}",
+			"type": "borderRadius"
+		},
+
+		
+		"Button-and-Input-L": {
+			"value": "3 * {UDS.Layout.Grid_Units.GU_Setting}",
+			"type": "borderRadius"
+		},
+		
+		"Input_M": {
+			"value": "1 * {UDS.Layout.Grid_Units.GU_Setting}",
+			"type": "borderRadius"
+		},
+		"Badge": {
+			"value": "1 * {UDS.Layout.Grid_Units.GU_Setting}",
+			"type": "borderRadius"
+		},
+
+		
+		"Button_S-on-Input_M": {
+		"value": "2",
+		"type": "borderRadius"
+		}
+	},
+
+	"None": {
+		"Panel": {
+		"value": "0",
+		"type": "borderRadius"
+		},
+		
+		"Button_L": {
+		"value": "0",
+		"type": "borderRadius"
+		},
+		"Button_M": {
+		"value": "0",
+		"type": "borderRadius"
+		},
+		"Button_S": {
+			"value": "0",
+			"type": "borderRadius"
+		},
+
+		
+		"Button-and-Input-L": {
+			"value": "0",
+			"type": "borderRadius"
+		},
+		
+		"Input_M": {
+			"value": "0",
+			"type": "borderRadius"
+		},
+		"Badge": {
+			"value": "0",
+			"type": "borderRadius"
+		},
+
+		
+		"Button_S-on-Input_M": {
+		"value": "0",
+		"type": "borderRadius"
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+}

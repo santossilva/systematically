@@ -1,0 +1,9 @@
+--theme-radius-panel: 6px;
+--theme-radius-button-large: 6px;
+--theme-radius-input-large: 6px;
+--theme-radius-button-small: 3px;
+--theme-radius-button-medium: 3px;
+--theme-radius-input-small: 3px;
+--theme-radius-input-medium: 3px;
+--theme-radius-tag: 6px;
+
