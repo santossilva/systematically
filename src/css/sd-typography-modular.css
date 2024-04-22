@@ -1,15 +1,15 @@
 :root {
   /* Base font sizes for different device headlines */
-  --sd-headline-size-base-mobile: 16px;
-  --sd-headline-size-base-tablet: 16px;
-  --sd-headline-size-base-desktop: 18px;
-  --sd-headline-size-base: var(--sd-headline-size-base-mobile); /* Default base size set for mobile */
+  --sd-headline-size-base-breakpoint00: 16px;
+  --sd-headline-size-base-breakpoint01: 18px;
+  --sd-headline-size-base-breakpoint02: 24px;
+  --sd-headline-size-base: var(--sd-headline-size-base-breakpoint00); /* Default base size set for breakpoint00 */
 
   /* Scaling factors for font sizes across devices */
-  --sd-headline-size-factor-mobile: 1.125;
-  --sd-headline-size-factor-tablet: 1.2;
-  --sd-headline-size-factor-desktop: 1.2;
-  --sd-headline-size-factor: var(--sd-headline-size-factor-mobile); /* Default factor set for mobile */
+  --sd-headline-size-factor-breakpoint00: 1.125;
+  --sd-headline-size-factor-breakpoint01: 1.2;
+  --sd-headline-size-factor-breakpoint02: 1.250;
+  --sd-headline-size-factor: var(--sd-headline-size-factor-breakpoint00); /* Default factor set for breakpoint00 */
 
   /* Computed font sizes using scaling factors */
   --sd-headline-size-xs: calc(var(--sd-headline-size-base));
@@ -20,16 +20,16 @@
   --sd-headline-size-2xl: calc(var(--sd-headline-size-xl) * var(--sd-headline-size-factor));
 
   /* Line height ratios for readability across devices */
-  --sd-headline-line-height-ratio-mobile: 1.5;
-  --sd-headline-line-height-ratio-tablet: 1.5;
-  --sd-headline-line-height-ratio-desktop: 1.4;
-  --sd-headline-line-height-ratio: var(--sd-headline-line-height-ratio-mobile); /* Default ratio set for mobile */
+  --sd-headline-line-height-ratio-breakpoint00: 1.5;
+  --sd-headline-line-height-ratio-breakpoint01: 1.45;
+  --sd-headline-line-height-ratio-breakpoint02: 1.4;
+  --sd-headline-line-height-ratio: var(--sd-headline-line-height-ratio-breakpoint00); /* Default ratio set for breakpoint00 */
 
-  /* Dampening factors to subtly adjust line heights */
-  --sd-headline-line-height-factor-dampener-mobile: 0.95;
-  --sd-headline-line-height-factor-dampener-tablet: 0.95;
-  --sd-headline-line-height-factor-dampener-desktop: 0.95;
-  --sd-headline-line-height-factor-dampener: var(--sd-headline-line-height-factor-dampener-mobile); /* Default dampener for mobile */
+  /* Dampening factors to subtly adjust line heights - a value of 1 results in no effect */
+  --sd-headline-line-height-factor-dampener-breakpoint00: 0.96;
+  --sd-headline-line-height-factor-dampener-breakpoint01: 0.97;
+  --sd-headline-line-height-factor-dampener-breakpoint02: 0.98;
+  --sd-headline-line-height-factor-dampener: var(--sd-headline-line-height-factor-dampener-breakpoint00); /* Default dampener for breakpoint00 */
 
   /* Computed line heights using factors and base sizes */
   --sd-headline-line-height-factor: calc(var(--sd-headline-size-factor) * var(--sd-headline-line-height-factor-dampener));
@@ -42,23 +42,7 @@
   --sd-headline-line-height-xl: calc(var(--sd-headline-line-height-l) * var(--sd-headline-line-height-factor));
   --sd-headline-line-height-2xl: calc(var(--sd-headline-line-height-xl) * var(--sd-headline-line-height-factor));
 
-  /* Media queries for tablets */
-  @media (width >= 768px) {
-    --sd-headline-size-base: var(--sd-headline-size-base-tablet);
-    --sd-headline-size-factor: var(--sd-headline-size-factor-tablet);
-
-    --sd-headline-line-height-ratio: var(--sd-headline-line-height-ratio-tablet);
-    --sd-headline-line-height-factor-dampener: var(--sd-headline-line-height-factor-dampener-tablet);
-  }
-
-  /* Media queries for desktops */
-  @media (width >= 1024px) {
-    --sd-headline-size-base: var(--sd-headline-size-base-desktop);
-    --sd-headline-size-factor: var(--sd-headline-size-factor-desktop);
-
-    --sd-headline-line-height-ratio: var(--sd-headline-line-height-ratio-desktop);
-    --sd-headline-line-height-factor-dampener: var(--sd-headline-line-height-factor-dampener-desktop);
-  }
+  
 }
 
 /* Utility classes for applying font sizes and line heights to headlines */
