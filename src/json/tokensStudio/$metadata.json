@@ -2,6 +2,8 @@
   "tokenSetOrder": [
     "layout",
     "type-custom",
-    "type"
+    "type",
+    "control",
+    "gridUnits"
   ]
 }
