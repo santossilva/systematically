@@ -1,0 +1,140 @@
+{
+    "desktop": {
+      "section": {
+        "padding": {
+          "value": "{GU8}",
+          "type": "other"
+        },
+        "gap": {
+          "value": "{GU2}",
+          "type": "other"
+        }
+      },
+      "block": {
+        "padding": {
+          "value": "{GU4}",
+          "type": "other"
+        },
+        "gap": {
+          "value": "{GU3}",
+          "type": "other"
+        }
+      },
+      "section-comp": {
+        "value": {
+          "verticalPadding": "{desktop.section.padding}",
+          "horizontalPadding": "{desktop.section.padding}",
+          "itemSpacing": "{desktop.section.gap}"
+        },
+        "type": "composition"
+      },
+      "cluster-comp": {
+        "value": {
+          "verticalPadding": "0",
+          "horizontalPadding": "0",
+          "itemSpacing": "{desktop.section.gap}"
+        },
+        "type": "composition"
+      },
+      "block-comp": {
+        "value": {
+          "verticalPadding": "{desktop.block.padding}",
+          "horizontalPadding": "{desktop.block.padding}",
+          "itemSpacing": "{desktop.block.gap}"
+        },
+        "type": "composition"
+      }
+    },
+    "tablet": {
+      "section": {
+        "padding": {
+          "value": "{GU6}",
+          "type": "other"
+        },
+        "gap": {
+          "value": "{GU2}",
+          "type": "other"
+        }
+      },
+      "block": {
+        "padding": {
+          "value": "{GU3}",
+          "type": "other"
+        },
+        "gap": {
+          "value": "{GU3}",
+          "type": "other"
+        }
+      },
+      "section-comp": {
+        "value": {
+          "verticalPadding": "{tablet.section.padding}",
+          "horizontalPadding": "{tablet.section.padding}",
+          "itemSpacing": "{tablet.section.gap}"
+        },
+        "type": "composition"
+      },
+      "cluster-comp": {
+        "value": {
+          "verticalPadding": "0",
+          "horizontalPadding": "0",
+          "itemSpacing": "{tablet.section.gap}"
+        },
+        "type": "composition"
+      },
+      "block-comp": {
+        "value": {
+          "verticalPadding": "{tablet.block.padding}",
+          "horizontalPadding": "{tablet.block.padding}",
+          "itemSpacing": "{tablet.block.gap}"
+        },
+        "type": "composition"
+      }
+    },
+    "mobile": {
+      "section-comp": {
+        "value": {
+          "verticalPadding": "{mobile.section.padding}",
+          "horizontalPadding": "{mobile.section.padding}/2",
+          "itemSpacing": "{mobile.section.gap}"
+        },
+        "type": "composition"
+      },
+      "cluster-comp": {
+        "value": {
+          "verticalPadding": "0",
+          "horizontalPadding": "0",
+          "itemSpacing": "{mobile.section.gap}"
+        },
+        "type": "composition"
+      },
+      "block-comp": {
+        "value": {
+          "verticalPadding": "{mobile.block.padding}",
+          "horizontalPadding": "{mobile.block.padding}",
+          "itemSpacing": "{mobile.block.gap}"
+        },
+        "type": "composition"
+      },
+      "section": {
+        "padding": {
+          "value": "{GU4}",
+          "type": "other"
+        },
+        "gap": {
+          "value": "{GU1}",
+          "type": "other"
+        }
+      },
+      "block": {
+        "padding": {
+          "value": "{GU3}",
+          "type": "other"
+        },
+        "gap": {
+          "value": "{GU3}",
+          "type": "other"
+        }
+      }
+    }
+  }
