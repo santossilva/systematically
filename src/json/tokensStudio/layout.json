@@ -1,6 +1,6 @@
 {
   "desktop": {
-    "section": {
+    "module": {
       "framing": {
         "value": "{GU8}",
         "type": "other"
@@ -20,11 +20,11 @@
         "type": "other"
       }
     },
-    "section-comp": {
+    "module-comp": {
       "value": {
-        "verticalPadding": "{desktop.section.framing}",
-        "horizontalPadding": "{desktop.section.framing}",
-        "itemSpacing": "{desktop.section.spacing}"
+        "verticalPadding": "{desktop.module.framing}",
+        "horizontalPadding": "{desktop.module.framing}",
+        "itemSpacing": "{desktop.module.spacing}"
       },
       "type": "composition"
     },
@@ -32,7 +32,7 @@
       "value": {
         "verticalPadding": "0",
         "horizontalPadding": "0",
-        "itemSpacing": "{desktop.section.spacing}"
+        "itemSpacing": "{desktop.module.spacing}"
       },
       "type": "composition"
     },
@@ -46,7 +46,7 @@
     }
   },
   "tablet": {
-    "section": {
+    "module": {
       "framing": {
         "value": "{GU6}",
         "type": "other"
@@ -66,11 +66,11 @@
         "type": "other"
       }
     },
-    "section-comp": {
+    "module-comp": {
       "value": {
-        "verticalPadding": "{tablet.section.framing}",
-        "horizontalPadding": "{tablet.section.framing}",
-        "itemSpacing": "{tablet.section.spacing}"
+        "verticalPadding": "{tablet.module.framing}",
+        "horizontalPadding": "{tablet.module.framing}",
+        "itemSpacing": "{tablet.module.spacing}"
       },
       "type": "composition"
     },
@@ -78,7 +78,7 @@
       "value": {
         "verticalPadding": "0",
         "horizontalPadding": "0",
-        "itemSpacing": "{tablet.section.spacing}"
+        "itemSpacing": "{tablet.module.spacing}"
       },
       "type": "composition"
     },
@@ -92,11 +92,11 @@
     }
   },
   "mobile": {
-    "section-comp": {
+    "module-comp": {
       "value": {
-        "verticalPadding": "{mobile.section.framing}",
-        "horizontalPadding": "{mobile.section.framing}/2",
-        "itemSpacing": "{mobile.section.spacing}"
+        "verticalPadding": "{mobile.module.framing}",
+        "horizontalPadding": "{mobile.module.framing}/2",
+        "itemSpacing": "{mobile.module.spacing}"
       },
       "type": "composition"
     },
@@ -104,7 +104,7 @@
       "value": {
         "verticalPadding": "0",
         "horizontalPadding": "0",
-        "itemSpacing": "{mobile.section.spacing}"
+        "itemSpacing": "{mobile.module.spacing}"
       },
       "type": "composition"
     },
@@ -116,7 +116,7 @@
       },
       "type": "composition"
     },
-    "section": {
+    "module": {
       "framing": {
         "value": "{GU4}",
         "type": "other"
