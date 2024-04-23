@@ -1,0 +1,98 @@
+{
+    "sd": {
+      "type": {
+        "headline": {
+          "mobile": {
+            "sizes": {
+              "base": {
+                "value": "18",
+                "type": "other"
+              },
+              "factor": {
+                "value": "1.125",
+                "type": "other"
+              }
+            },
+            "lineHeight": {
+              "sizeHeightRatio": {
+                "value": "1.5",
+                "type": "other"
+              },
+              "base": {
+                "value": "{sd.type.headline.mobile.sizes.base}*{sd.type.headline.mobile.lineHeight.sizeHeightRatio}",
+                "type": "other"
+              },
+              "factor-dampener": {
+                "value": "0.98",
+                "type": "other"
+              },
+              "factor": {
+                "value": "{sd.type.headline.mobile.sizes.factor}* {sd.type.headline.mobile.lineHeight.factor-dampener}",
+                "type": "other"
+              }
+            }
+          },
+          "tablet": {
+            "sizes": {
+              "base": {
+                "value": "16",
+                "type": "other"
+              },
+              "factor": {
+                "value": "1.25",
+                "type": "other"
+              }
+            },
+            "lineHeight": {
+              "sizeHeightRatio": {
+                "value": "1.5",
+                "type": "other"
+              },
+              "base": {
+                "value": "{sd.type.headline.tablet.sizes.base}*{sd.type.headline.tablet.lineHeight.sizeHeightRatio}",
+                "type": "other"
+              },
+              "factor-dampener": {
+                "value": "0.98",
+                "type": "other"
+              },
+              "factor": {
+                "value": "{sd.type.headline.tablet.sizes.factor}* {sd.type.headline.tablet.lineHeight.factor-dampener}",
+                "type": "other"
+              }
+            }
+          },
+          "desktop": {
+            "sizes": {
+              "base": {
+                "value": "18",
+                "type": "other"
+              },
+              "factor": {
+                "value": "1.33",
+                "type": "other"
+              }
+            },
+            "lineHeight": {
+              "sizeHeightRatio": {
+                "value": "1.5",
+                "type": "other"
+              },
+              "base": {
+                "value": "{sd.type.headline.desktop.sizes.base}*{sd.type.headline.desktop.lineHeight.sizeHeightRatio}",
+                "type": "other"
+              },
+              "factor-dampener": {
+                "value": "0.98",
+                "type": "other"
+              },
+              "factor": {
+                "value": "{sd.type.headline.desktop.sizes.factor}* {sd.type.headline.desktop.lineHeight.factor-dampener}",
+                "type": "other"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
