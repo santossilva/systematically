@@ -1,5 +1,5 @@
 {
-  "desktop": {
+  "breakpoint 03": {
     "module": {
       "framing": {
         "value": "{GU8}",
@@ -22,9 +22,9 @@
     },
     "module-comp": {
       "value": {
-        "verticalPadding": "{desktop.module.framing}",
-        "horizontalPadding": "{desktop.module.framing}",
-        "itemSpacing": "{desktop.module.spacing}"
+        "verticalPadding": "{breakpoint 03.module.framing}",
+        "horizontalPadding": "{breakpoint 03.module.framing}",
+        "itemSpacing": "{breakpoint 03.module.spacing}"
       },
       "type": "composition"
     },
@@ -32,20 +32,20 @@
       "value": {
         "verticalPadding": "0",
         "horizontalPadding": "0",
-        "itemSpacing": "{desktop.module.spacing}"
+        "itemSpacing": "{breakpoint 03.module.spacing}"
       },
       "type": "composition"
     },
     "block-comp": {
       "value": {
-        "verticalPadding": "{desktop.block.framing}",
-        "horizontalPadding": "{desktop.block.framing}",
-        "itemSpacing": "{desktop.block.spacing}"
+        "verticalPadding": "{breakpoint 03.block.framing}",
+        "horizontalPadding": "{breakpoint 03.block.framing}",
+        "itemSpacing": "{breakpoint 03.block.spacing}"
       },
       "type": "composition"
     }
   },
-  "tablet": {
+  "breakpoint 02": {
     "module": {
       "framing": {
         "value": "{GU6}",
@@ -68,9 +68,9 @@
     },
     "module-comp": {
       "value": {
-        "verticalPadding": "{tablet.module.framing}",
-        "horizontalPadding": "{tablet.module.framing}",
-        "itemSpacing": "{tablet.module.spacing}"
+        "verticalPadding": "{breakpoint 02.module.framing}",
+        "horizontalPadding": "{breakpoint 02.module.framing}",
+        "itemSpacing": "{breakpoint 02.module.spacing}"
       },
       "type": "composition"
     },
@@ -78,25 +78,25 @@
       "value": {
         "verticalPadding": "0",
         "horizontalPadding": "0",
-        "itemSpacing": "{tablet.module.spacing}"
+        "itemSpacing": "{breakpoint 02.module.spacing}"
       },
       "type": "composition"
     },
     "block-comp": {
       "value": {
-        "verticalPadding": "{tablet.block.framing}",
-        "horizontalPadding": "{tablet.block.framing}",
-        "itemSpacing": "{tablet.block.spacing}"
+        "verticalPadding": "{breakpoint 02.block.framing}",
+        "horizontalPadding": "{breakpoint 02.block.framing}",
+        "itemSpacing": "{breakpoint 02.block.spacing}"
       },
       "type": "composition"
     }
   },
-  "mobile": {
+  "breakpoint 01": {
     "module-comp": {
       "value": {
-        "verticalPadding": "{mobile.module.framing}",
-        "horizontalPadding": "{mobile.module.framing}/2",
-        "itemSpacing": "{mobile.module.spacing}"
+        "verticalPadding": "{breakpoint 01.module.framing}",
+        "horizontalPadding": "{breakpoint 01.module.framing}/2",
+        "itemSpacing": "{breakpoint 01.module.spacing}"
       },
       "type": "composition"
     },
@@ -104,15 +104,15 @@
       "value": {
         "verticalPadding": "0",
         "horizontalPadding": "0",
-        "itemSpacing": "{mobile.module.spacing}"
+        "itemSpacing": "{breakpoint 01.module.spacing}"
       },
       "type": "composition"
     },
     "block-comp": {
       "value": {
-        "verticalPadding": "{mobile.block.framing}",
-        "horizontalPadding": "{mobile.block.framing}",
-        "itemSpacing": "{mobile.block.spacing}"
+        "verticalPadding": "{breakpoint 01.block.framing}",
+        "horizontalPadding": "{breakpoint 01.block.framing}",
+        "itemSpacing": "{breakpoint 01.block.spacing}"
       },
       "type": "composition"
     },
