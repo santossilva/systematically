@@ -1,6 +1,6 @@
 {
   "headline": {
-    "mobile": {
+    "breakpoint 01": {
       "sizes": {
         "base": {
           "value": "18",
@@ -30,7 +30,7 @@
         }
       }
     },
-    "tablet": {
+    "breakpoint 02": {
       "sizes": {
         "base": {
           "value": "16",
@@ -60,7 +60,7 @@
         }
       }
     },
-    "desktop": {
+    "breakpoint03": {
       "sizes": {
         "base": {
           "value": "18",
