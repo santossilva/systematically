@@ -1,7 +1,7 @@
 {
   "headline": {
-    "breakpoint 01": {
-      "sizes": {
+    "breakpoint01": {
+      "fontSize": {
         "base": {
           "value": "16",
           "type": "other"
@@ -11,27 +11,27 @@
           "type": "other"
         },
         "xs": {
-          "value": "{headline.breakpoint 01.sizes.base} * {headline.breakpoint 01.sizes.factor} ^ 0",
+          "value": "{headline.breakpoint01.fontSize.base} * {headline.breakpoint01.fontSize.factor} ^ 0",
           "type": "fontSizes"
         },
         "s": {
-          "value": "{headline.breakpoint 01.sizes.base} * {headline.breakpoint 01.sizes.factor} ^ 1",
+          "value": "{headline.breakpoint01.fontSize.base} * {headline.breakpoint01.fontSize.factor} ^ 1",
           "type": "fontSizes"
         },
         "m": {
-          "value": "{headline.breakpoint 01.sizes.base} * {headline.breakpoint 01.sizes.factor} ^ 2",
+          "value": "{headline.breakpoint01.fontSize.base} * {headline.breakpoint01.fontSize.factor} ^ 2",
           "type": "fontSizes"
         },
         "l": {
-          "value": "{headline.breakpoint 01.sizes.base} * {headline.breakpoint 01.sizes.factor} ^ 3",
+          "value": "{headline.breakpoint01.fontSize.base} * {headline.breakpoint01.fontSize.factor} ^ 3",
           "type": "fontSizes"
         },
         "xl": {
-          "value": "{headline.breakpoint 01.sizes.base} * {headline.breakpoint 01.sizes.factor} ^ 4",
+          "value": "{headline.breakpoint01.fontSize.base} * {headline.breakpoint01.fontSize.factor} ^ 4",
           "type": "fontSizes"
         },
         "2xl": {
-          "value": "{headline.breakpoint 01.sizes.base} * {headline.breakpoint 01.sizes.factor} ^ 5",
+          "value": "{headline.breakpoint01.fontSize.base} * {headline.breakpoint01.fontSize.factor} ^ 5",
           "type": "fontSizes"
         }
       },
@@ -41,7 +41,7 @@
           "type": "other"
         },
         "base": {
-          "value": "{headline.breakpoint 01.sizes.base}*{headline.breakpoint 01.lineHeight.sizeHeightRatio}",
+          "value": "{headline.breakpoint01.fontSize.base}*{headline.breakpoint01.lineHeight.sizeHeightRatio}",
           "type": "other"
         },
         "factor-dampener": {
@@ -49,41 +49,37 @@
           "type": "other"
         },
         "factor": {
-          "value": "{headline.breakpoint 01.sizes.factor}* {headline.breakpoint 01.lineHeight.factor-dampener}",
+          "value": "{headline.breakpoint01.fontSize.factor}* {headline.breakpoint01.lineHeight.factor-dampener}",
           "type": "other"
-        }
-      }
-    },
-    "mobile": {
-      "lineHeight": {
+        },
         "xs": {
-          "value": "{headline.breakpoint 01.lineHeight.base} * {headline.breakpoint 01.lineHeight.factor} ^ 0",
+          "value": "{headline.breakpoint01.lineHeight.base} * {headline.breakpoint01.lineHeight.factor} ^ 0",
           "type": "lineHeights"
         },
         "s": {
-          "value": "{headline.breakpoint 01.lineHeight.base} * {headline.breakpoint 01.lineHeight.factor} ^ 1",
+          "value": "{headline.breakpoint01.lineHeight.base} * {headline.breakpoint01.lineHeight.factor} ^ 1",
           "type": "lineHeights"
         },
         "m": {
-          "value": "{headline.breakpoint 01.lineHeight.base} * {headline.breakpoint 01.lineHeight.factor} ^ 2",
+          "value": "{headline.breakpoint01.lineHeight.base} * {headline.breakpoint01.lineHeight.factor} ^ 2",
           "type": "lineHeights"
         },
         "l": {
-          "value": "{headline.breakpoint 01.lineHeight.base} * {headline.breakpoint 01.lineHeight.factor} ^ 3",
+          "value": "{headline.breakpoint01.lineHeight.base} * {headline.breakpoint01.lineHeight.factor} ^ 3",
           "type": "lineHeights"
         },
         "xl": {
-          "value": "{headline.breakpoint 01.lineHeight.base} * {headline.breakpoint 01.lineHeight.factor} ^ 4",
+          "value": "{headline.breakpoint01.lineHeight.base} * {headline.breakpoint01.lineHeight.factor} ^ 4",
           "type": "lineHeights"
         },
         "2xl": {
-          "value": "{headline.breakpoint 01.lineHeight.base} * {headline.breakpoint 01.lineHeight.factor} ^ 5",
+          "value": "{headline.breakpoint01.lineHeight.base} * {headline.breakpoint01.lineHeight.factor} ^ 5",
           "type": "lineHeights"
         }
       }
     },
-    "breakpoint 02": {
-      "sizes": {
+    "breakpoint02": {
+      "fontSize": {
         "base": {
           "value": "16",
           "type": "other"
@@ -93,27 +89,27 @@
           "type": "other"
         },
         "xs": {
-          "value": "{headline.breakpoint 02.sizes.base} * {headline.breakpoint 02.sizes.factor} ^ 0",
+          "value": "{headline.breakpoint02.fontSize.base} * {headline.breakpoint02.fontSize.factor} ^ 0",
           "type": "fontSizes"
         },
         "s": {
-          "value": "{headline.breakpoint 02.sizes.base} * {headline.breakpoint 02.sizes.factor} ^ 1",
+          "value": "{headline.breakpoint02.fontSize.base} * {headline.breakpoint02.fontSize.factor} ^ 1",
           "type": "fontSizes"
         },
         "m": {
-          "value": "{headline.breakpoint 02.sizes.base} * {headline.breakpoint 02.sizes.factor} ^ 2",
+          "value": "{headline.breakpoint02.fontSize.base} * {headline.breakpoint02.fontSize.factor} ^ 2",
           "type": "fontSizes"
         },
         "l": {
-          "value": "{headline.breakpoint 02.sizes.base} * {headline.breakpoint 02.sizes.factor} ^ 3",
+          "value": "{headline.breakpoint02.fontSize.base} * {headline.breakpoint02.fontSize.factor} ^ 3",
           "type": "fontSizes"
         },
         "xl": {
-          "value": "{headline.breakpoint 02.sizes.base} * {headline.breakpoint 02.sizes.factor} ^ 4",
+          "value": "{headline.breakpoint02.fontSize.base} * {headline.breakpoint02.fontSize.factor} ^ 4",
           "type": "fontSizes"
         },
         "2xl": {
-          "value": "{headline.breakpoint 02.sizes.base} * {headline.breakpoint 02.sizes.factor} ^ 5",
+          "value": "{headline.breakpoint02.fontSize.base} * {headline.breakpoint02.fontSize.factor} ^ 5",
           "type": "fontSizes"
         }
       },
@@ -123,7 +119,7 @@
           "type": "other"
         },
         "base": {
-          "value": "{headline.breakpoint 02.sizes.base}*{headline.breakpoint 02.lineHeight.sizeHeightRatio}",
+          "value": "{headline.breakpoint02.fontSize.base}*{headline.breakpoint02.lineHeight.sizeHeightRatio}",
           "type": "other"
         },
         "factor-dampener": {
@@ -131,41 +127,37 @@
           "type": "other"
         },
         "factor": {
-          "value": "{headline.breakpoint 02.sizes.factor}* {headline.breakpoint 02.lineHeight.factor-dampener}",
+          "value": "{headline.breakpoint02.fontSize.factor}* {headline.breakpoint02.lineHeight.factor-dampener}",
           "type": "other"
-        }
-      }
-    },
-    "tablet": {
-      "lineHeight": {
+        },
         "xs": {
-          "value": "{headline.breakpoint 02.lineHeight.base} * {headline.breakpoint 02.lineHeight.factor} ^ 0",
+          "value": "{headline.breakpoint02.lineHeight.base} * {headline.breakpoint02.lineHeight.factor} ^ 0",
           "type": "lineHeights"
         },
         "s": {
-          "value": "{headline.breakpoint 02.lineHeight.base} * {headline.breakpoint 02.lineHeight.factor} ^ 1",
+          "value": "{headline.breakpoint02.lineHeight.base} * {headline.breakpoint02.lineHeight.factor} ^ 1",
           "type": "lineHeights"
         },
         "m": {
-          "value": "{headline.breakpoint 02.lineHeight.base} * {headline.breakpoint 02.lineHeight.factor} ^ 2",
+          "value": "{headline.breakpoint02.lineHeight.base} * {headline.breakpoint02.lineHeight.factor} ^ 2",
           "type": "lineHeights"
         },
         "l": {
-          "value": "{headline.breakpoint 02.lineHeight.base} * {headline.breakpoint 02.lineHeight.factor} ^ 3",
+          "value": "{headline.breakpoint02.lineHeight.base} * {headline.breakpoint02.lineHeight.factor} ^ 3",
           "type": "lineHeights"
         },
         "xl": {
-          "value": "{headline.breakpoint 02.lineHeight.base} * {headline.breakpoint 02.lineHeight.factor} ^ 4",
+          "value": "{headline.breakpoint02.lineHeight.base} * {headline.breakpoint02.lineHeight.factor} ^ 4",
           "type": "lineHeights"
         },
         "2xl": {
-          "value": "{headline.breakpoint 02.lineHeight.base} * {headline.breakpoint 02.lineHeight.factor} ^ 5",
+          "value": "{headline.breakpoint02.lineHeight.base} * {headline.breakpoint02.lineHeight.factor} ^ 5",
           "type": "lineHeights"
         }
       }
     },
-    "breakpoint 03": {
-      "sizes": {
+    "breakpoint03": {
+      "fontSize": {
         "base": {
           "value": "16",
           "type": "other"
@@ -175,27 +167,27 @@
           "type": "other"
         },
         "xs": {
-          "value": "{headline.breakpoint 03.sizes.base} * {headline.breakpoint 03.sizes.factor} ^ 0",
+          "value": "{headline.breakpoint03.fontSize.base} * {headline.breakpoint03.fontSize.factor} ^ 0",
           "type": "fontSizes"
         },
         "s": {
-          "value": "{headline.breakpoint 03.sizes.base} * {headline.breakpoint 03.sizes.factor} ^ 1",
+          "value": "{headline.breakpoint03.fontSize.base} * {headline.breakpoint03.fontSize.factor} ^ 1",
           "type": "fontSizes"
         },
         "m": {
-          "value": "{headline.breakpoint 03.sizes.base} * {headline.breakpoint 03.sizes.factor} ^ 2",
+          "value": "{headline.breakpoint03.fontSize.base} * {headline.breakpoint03.fontSize.factor} ^ 2",
           "type": "fontSizes"
         },
         "l": {
-          "value": "{headline.breakpoint 03.sizes.base} * {headline.breakpoint 03.sizes.factor} ^ 3",
+          "value": "{headline.breakpoint03.fontSize.base} * {headline.breakpoint03.fontSize.factor} ^ 3",
           "type": "fontSizes"
         },
         "xl": {
-          "value": "{headline.breakpoint 03.sizes.base} * {headline.breakpoint 03.sizes.factor} ^ 4",
+          "value": "{headline.breakpoint03.fontSize.base} * {headline.breakpoint03.fontSize.factor} ^ 4",
           "type": "fontSizes"
         },
         "2xl": {
-          "value": "{headline.breakpoint 03.sizes.base} * {headline.breakpoint 03.sizes.factor} ^ 5",
+          "value": "{headline.breakpoint03.fontSize.base} * {headline.breakpoint03.fontSize.factor} ^ 5",
           "type": "fontSizes"
         }
       },
@@ -205,7 +197,7 @@
           "type": "other"
         },
         "base": {
-          "value": "{headline.breakpoint 03.sizes.base}*{headline.breakpoint 03.lineHeight.sizeHeightRatio}",
+          "value": "{headline.breakpoint03.fontSize.base}*{headline.breakpoint03.lineHeight.sizeHeightRatio}",
           "type": "other"
         },
         "factor-dampener": {
@@ -213,35 +205,31 @@
           "type": "other"
         },
         "factor": {
-          "value": "{headline.breakpoint 03.sizes.factor}* {headline.breakpoint 03.lineHeight.factor-dampener}",
+          "value": "{headline.breakpoint03.fontSize.factor}* {headline.breakpoint03.lineHeight.factor-dampener}",
           "type": "other"
-        }
-      }
-    },
-    "desktop": {
-      "lineHeight": {
+        },
         "xs": {
-          "value": "{headline.breakpoint 03.lineHeight.base} * {headline.breakpoint 03.lineHeight.factor} ^ 0",
+          "value": "{headline.breakpoint03.lineHeight.base} * {headline.breakpoint03.lineHeight.factor} ^ 0",
           "type": "lineHeights"
         },
         "s": {
-          "value": "{headline.breakpoint 03.lineHeight.base} * {headline.breakpoint 03.lineHeight.factor} ^ 1",
+          "value": "{headline.breakpoint03.lineHeight.base} * {headline.breakpoint03.lineHeight.factor} ^ 1",
           "type": "lineHeights"
         },
         "m": {
-          "value": "{headline.breakpoint 03.lineHeight.base} * {headline.breakpoint 03.lineHeight.factor} ^ 2",
+          "value": "{headline.breakpoint03.lineHeight.base} * {headline.breakpoint03.lineHeight.factor} ^ 2",
           "type": "lineHeights"
         },
         "l": {
-          "value": "{headline.breakpoint 03.lineHeight.base} * {headline.breakpoint 03.lineHeight.factor} ^ 3",
+          "value": "{headline.breakpoint03.lineHeight.base} * {headline.breakpoint03.lineHeight.factor} ^ 3",
           "type": "lineHeights"
         },
         "xl": {
-          "value": "{headline.breakpoint 03.lineHeight.base} * {headline.breakpoint 03.lineHeight.factor} ^ 4",
+          "value": "{headline.breakpoint03.lineHeight.base} * {headline.breakpoint03.lineHeight.factor} ^ 4",
           "type": "lineHeights"
         },
         "2xl": {
-          "value": "{headline.breakpoint 03.lineHeight.base} * {headline.breakpoint 03.lineHeight.factor} ^ 5",
+          "value": "{headline.breakpoint03.lineHeight.base} * {headline.breakpoint03.lineHeight.factor} ^ 5",
           "type": "lineHeights"
         }
       }
